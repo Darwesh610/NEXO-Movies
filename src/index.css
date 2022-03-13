@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+body {
+  padding: 0;
+  margin: 0;
+  font-family:  'Montserrat Alternates', sans-serif !important;
+  background-color: rgb(2, 71, 71);
+  color: #fff;
+}
+.bg-lights {
+  background-color: #24baef !important;
+}
+.brdr {
+  background-color: #a8a8a83d !important;
+}
+a,a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.form-control {
+  background-color: transparent !important;
+  color: #fff !important;
+}

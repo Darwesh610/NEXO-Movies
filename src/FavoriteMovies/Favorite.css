@@ -1,0 +1,34 @@
+.Con {
+    position: relative;
+}
+.image-fav {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 84%;
+    background-color: rgba(121, 216, 216, 0.26);
+    color: rgb(30, 241, 241);
+    font-weight: 900;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.title-fav {
+    color: rgb(30, 241, 241);
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+.Con:hover .layout{
+    opacity: 1;
+}
